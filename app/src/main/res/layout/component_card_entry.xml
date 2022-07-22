@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="2dp"
+    android:layout_marginTop="5dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="20dp"
+    card_view:layout_constraintTop_toTopOf="parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/cardHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardHeaderTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:showDividers="middle"
+            android:orientation="horizontal"
+            android:divider="@drawable/ic_divider_empty"
+            >
+            <TextView
+                android:id="@+id/textEntryTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Visit to Pokhara"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:maxWidth="200dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                card_view:layout_constraintStart_toStartOf="@id/cardHeaderTop"
+                card_view:layout_constraintTop_toTopOf="parent"
+                />
+
+            <ImageView
+                android:id="@+id/btnCardMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_three_dots"
+                app:tint="@color/black"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textEntryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12th Feb 2021 12AM"
+            android:layout_marginVertical="5dp"
+            android:textColor="@color/teal_700"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/textEntryDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lorem ipsum lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  "
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            />
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/cardImgEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <ImageView
+                android:id="@+id/imgEntry"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/signup_illustration"
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

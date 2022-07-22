@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">JourneyJournal</string>
+    <string name="labelLogin">Login to your account</string>
+    <string name="labelLoginWelcome">Welcome back! You have been missed.</string>
+    <string name="labelRegister">Register your account</string>
+    <string name="labelRegisterWelcome">Enter your credentials to continue.</string>
+    <string name="hintFullname">Fullname</string>
+    <string name="hintMobileNumber">Mobile Number</string>
+    <string name="hintEmailAddress">Email Address</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintConfirmPassword">Confirm Password</string>
+    <string name="labelRegisterMember">Already a member?</string>
+    <string name="labelLoginMember">New member?</string>
+    <string name="textBlankEmailAddress">Email address is required</string>
+    <string name="textInvalidEmailAddress">Email address is invalid</string>
+    <string name="textBlankPassword">Password is required</string>
+    <string name="textLengthErrorPassword">Use 8 characters or more for your password</string>
+    <string name="textBlankConfirmPassword">Confirm password is required</string>
+    <string name="textBlankCurrentPassword">Current password is required</string>
+    <string name="textBlankNewPassword">New password is required</string>
+    <string name="textUnmatchPassword">Password must match</string>
+    <string name="textSameUpdatePassword">New password should not be as same as current password</string>
+    <string name="textInvalidMobileNumber">Mobile number is invalid</string>
+    <string name="textBlankMobileNumber">Mobile number is required</string>
+    <string name="textBlankFullname">Fullname is required</string>
+    <string name="textBtnRegister">Register</string>
+    <string name="textBtnLogin">Login</string>
+    <string name="hintJourneyTitle">Journey Title</string>
+    <string name="hintJourneyDescription">Journey Description</string>
+    <string name="textBlankJourneyTitle">Journey title is required</string>
+    <string name="textBlankJourneyDescription">Journey description is required</string>
+</resources>
